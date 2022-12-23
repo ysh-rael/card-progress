@@ -1,0 +1,35 @@
+@import url('boxCardOfBack.css');
+
+.card__progress__circleBox {
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+.card__progress__circleBox svg {   
+}
+.card__progress__circleBox circle {
+    fill: none;
+    stroke-width: 10;
+}
+.card__progress__circleBox circle:nth-child(1) {
+    stroke: #ffffff2a;
+    stroke-dasharray: 0;
+}
+.card__progress__circleBox circle:nth-child(2) {
+    stroke: #cac9fa;
+    stroke-dasharray: 314;
+    transition: all 480ms;
+}
+.Card__progress__number {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    font-size: 1rem;
+    color: #ffc400;
+    margin: auto;
+}
+
+
